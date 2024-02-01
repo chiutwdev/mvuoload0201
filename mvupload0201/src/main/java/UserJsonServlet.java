@@ -44,7 +44,8 @@ public class UserJsonServlet extends HttpServlet {
 		Gson gson=new Gson();
 		System.out.println(gson.toJson(list));
 		response.getWriter().append(gson.toJson(list));
-		
+		/* update & test push + compare */
+		System.out.println(gson.toJson(list));
 	}
 
 	/**
